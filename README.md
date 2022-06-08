@@ -11,7 +11,7 @@ Tech: HTML, CSS, Tailwind CSS, BootStrap
 Everyday, I code these challenges to stay relevant and up-to-date with my frontend knowledge
 
 ## Optimizations
-My initial creations are made with pure HTML and CSS. Further iterations are made using Tailwind and Bootstrap to stay relvant with modern coding practices
+My initial creations are made with pure HTML and CSS. Further iterations are made using Tailwind and Bootstrap to stay relevant with modern coding practices
 
 ## Lesson I Learned
 First impressions are imporatant, especially when dealing with end-users. Being able to navigate the Frontend and Backend makes me a better Full-Stack Developer and provides greater value to my end users
