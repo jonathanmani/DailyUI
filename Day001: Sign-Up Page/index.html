@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <title>Volunteer Sign Up Page</title>
 </head>
 <body>
@@ -17,7 +20,7 @@
                 <input class="lastName" type="text" placeholder="Last Name">
                 <div class="country">
                     <h3>Country of Residence</h3>
-                    <select type="select" name="countryOfResidence" id="">
+                    <select class="countryOfResidence" type="select" name="countryOfResidence" id="">
                         <option value disabled selected>Select One</option>
                         <option value="Afghanistan">Afghanistan</option>
                         <option value="Aland Islands">Aland Islands</option>
@@ -275,7 +278,7 @@
                 </div>
                 <div class="gender">
                     <h3 class="form_field_label">Gender</h3>
-                    <select type="select" name="Gender" id="">
+                    <select class="gender" type="select" name="Gender" id="">
                         <option value disabled selected></option>
                         <option value="Male">Male</option>
                         <option value="Female">Female</option>
@@ -284,7 +287,7 @@
                 </div>
                 <div class="age">
                     <h3 class="form_field_label">Age</h3>
-                    <select name="Age" id="">
+                    <select class="age" name="Age" id="">
                         <option value disabled selected></option>
                         <option value="18-24">18-24</option>
                         <option value="25-30">25-30</option>
@@ -297,23 +300,23 @@
                     </select>
                 </div>     
                 <div class="volunteer">
-                    <span class="form_field_label">Have you volunteered with us before?</span>
+                    <h4 class="form_field_label">Have you volunteered with us before?</h4>
                     <input type="radio" id="radioYes" name="Have you volunteered with us before" value="yes" required>
                     <label for="radioYes">Yes</label>
                     <input type="radio" id="radioNo" name="Have you volunteered with us before" value="no" required>
                     <label for="radioNo">No</label>
                 </div>
                 <div class="emailCommunications">
-                    <span class="form_field_label">
+                    <h4 class="form_field_label">
                         I wish to receive email communications, including news about our conferences, and access to exclusive invite-only events
-                    </span>
+                    </h4>
                     <input type="radio" id="emailYes" name="I wish to recieve email communications" value="yes" required>
                     <label for="emailYes">Yes</label>
                     <input type="radio" id="emailNo" name="I wish to recieve email communications" value="no" required>
                     <label for="emailNo">No</label>
                 </div>
-                <div class="submitButton">
-                    <button type="button">Sign Me Up</button>
+                <div class="submitButtonDiv">
+                    <button class="button" type="button">Sign Me Up</button>
                 </div>
             </form>
         </div>

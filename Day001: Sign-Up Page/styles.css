@@ -1,3 +1,13 @@
+:root{
+    --rosewater: #E8B4B8;
+    --dustyRose: #EED6D3;
+    --coffeePot:#A49393;
+}
+
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .center{
     width: 40%;
     margin: auto;
@@ -9,10 +19,53 @@
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    border: 1px solid red;
+    background-color: var(--dustyRose);
+    border-radius: 15px;
 }
 
 h3{
     margin: 1.3rem 0 0.5rem 0;
 }
 
+h4{
+    margin: 1rem 0 0.5rem 0;
+}
+
+.firstName,
+.lastName {
+    width: 47%;
+    padding: 0.3rem;
+    border: none;
+    border-radius:5px;
+}
+
+.countryOfResidence {
+    width:99%;
+    padding: 0.3rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.gender,
+.age {
+    width: 50%;
+    padding: 0.3rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.submitButtonDiv{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+
+.button{
+    padding: 0.5rem;
+    margin: 1rem 0 0 0;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--coffeePot);
+    font-size: 20px;
+}
