@@ -13,11 +13,33 @@
     display: flex;
     flex-flow: column wrap;
     padding: 10px;
+    border: 1px solid blue;
+    width: 80%;
 }
 
-#subtitle-name,
-#subtitle-number,
-#subtitle-expiry,
-#subtitle-cvv {
-    width: 100%;
+.subtitle-double{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid green;
+}
+
+.subtitle-expirydiv,
+.subtitle-cvvdiv {
+    width: 30%;
+    border: 1px solid orange;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.pay-now{
+    border: 1px solid purple;
+    padding: 20px;
+}
+
+#input-paynow{
+    padding: 10px 30px;
+    font-size: 15px;
 }
