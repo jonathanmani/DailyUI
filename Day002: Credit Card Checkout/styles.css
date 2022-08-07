@@ -1,0 +1,23 @@
+.form{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.subtitle{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 10px;
+}
+
+#subtitle-name,
+#subtitle-number,
+#subtitle-expiry,
+#subtitle-cvv {
+    width: 100%;
+}
