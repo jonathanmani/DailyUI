@@ -1,19 +1,50 @@
+:root {
+    --mint: #DDFFE7;
+    --spearmint: #98D7C2;
+    --teal-green: #167D7F;
+    --teal: #29A0B1;
+}
+
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .form{
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
-    width: 60%;
     margin: auto;
+    height: 100vh;
     border-radius: 10px;
+    background-color: var(--mint);
+}
+
+h1{
+    width: 100%;
+    background-color: var(--spearmint);
+    text-align: center;
+    padding: 10px 0;
+    color: var(--teal-green);
+}
+
+label{
+    color: var(--teal-green);
+    font-size: medium;
+}
+
+input{
+    border-radius: 5px;
+    border: none;
+    background-color: var(--spearmint);
+    padding: 10px;
+    font-size: medium;
 }
 
 .subtitle{
     display: flex;
     flex-flow: column wrap;
     padding: 10px;
-    border: 1px solid blue;
     width: 80%;
 }
 
@@ -23,23 +54,25 @@
     justify-content: space-between;
     padding: 10px;
     width: 80%;
-    border: 1px solid green;
 }
 
 .subtitle-expirydiv,
 .subtitle-cvvdiv {
     width: 30%;
-    border: 1px solid orange;
     padding-left: 0;
     padding-right: 0;
 }
 
 .pay-now{
-    border: 1px solid purple;
     padding: 20px;
 }
 
 #input-paynow{
     padding: 10px 30px;
-    font-size: 15px;
+    font-size: 25px;
+    color: var(--teal-green);
+}
+
+@media screen (min-width: ) {
+    
 }
