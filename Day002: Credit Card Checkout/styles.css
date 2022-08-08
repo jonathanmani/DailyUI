@@ -5,18 +5,13 @@
     --teal: #29A0B1;
 }
 
-html{
+body{
     font-family: 'Montserrat', sans-serif;
-}
-
-.form{
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
     margin: auto;
-    height: 100vh;
-    border-radius: 10px;
     background-color: var(--mint);
 }
 
@@ -73,6 +68,18 @@ input{
     color: var(--teal-green);
 }
 
-@media screen (min-width: ) {
-    
+@media (max-width:700px) {
+    .subtitle-double{
+        display: flex;
+        flex-flow: column wrap;
+        padding: 10px;
+        width: 80%;
+    }
+
+    .subtitle-expirydiv,
+    .subtitle-cvvdiv {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
 }

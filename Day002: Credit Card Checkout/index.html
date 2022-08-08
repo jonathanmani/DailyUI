@@ -11,30 +11,28 @@
     <title>Credit Card Checkout</title>
 </head>
 <body>
-    <div class="form">
-        <h1 class="title">Checkout</h1>
-        <div class="subtitle">
-            <label for="Name of Cardholder">Name of Cardholder</label>
-            <input type="text" name="Name of Cardholder" id="subtitle-name" required>
+    <h1 class="title">Checkout</h1>
+    <div class="subtitle">
+        <label for="Name of Cardholder">Name of Cardholder</label>
+        <input type="text" name="Name of Cardholder" id="subtitle-name" required>
+    </div>
+    <div class="subtitle">
+        <label for="Card Number">Card Number</label>
+        <input type="text" name="Card Number" id="subtitle-number" required>
+    </div>
+    <div class="subtitle-double">
+        <div class="subtitle subtitle-expirydiv">
+            <label for="Expiry Date">Expiry Date</label>
+            <input type="date" name="Expiry Date" id="subtitle-expiry" min="2020-04-01" max="2025-04-30" required>
         </div>
-        <div class="subtitle">
-            <label for="Card Number">Card Number</label>
-            <input type="text" name="Card Number" id="subtitle-number" required>
-        </div>
-        <div class="subtitle-double">
-            <div class="subtitle subtitle-expirydiv">
-                <label for="Expiry Date">Expiry Date</label>
-                <input type="date" name="Expiry Date" id="subtitle-expiry" min="2020-04-01" max="2025-04-30" required>
-            </div>
-            <div class="subtitle subtitle-cvvdiv">
-                <label for="CVV">CVV</label>
-                <input type="text" name="CVV" id="subtitle-cvv" required>
-            </div>    
-        </div>
-        <div class="pay-now">
-            <label for="Pay Now"></label>
-            <input type="button" name="Pay Now" id="input-paynow" value="Pay Now">
-        </div>
+        <div class="subtitle subtitle-cvvdiv">
+            <label for="CVV">CVV</label>
+            <input type="text" name="CVV" id="subtitle-cvv" required>
+        </div>    
+    </div>
+    <div class="pay-now">
+        <label for="Pay Now"></label>
+        <input type="button" name="Pay Now" id="input-paynow" value="Pay Now">
     </div>
 </body>
 </html>
