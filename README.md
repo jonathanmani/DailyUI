@@ -1,5 +1,5 @@
 # DailyUI
-A collection of daily frontend projects. 1 challenge completed every 1-2 days. Each folder contains a README as well as link to view the project. All projects can be viewed here https://www.playbook.com/frontend/Pmjk1PSPWTB5MG3emgW4EQ6H
+A collection of daily frontend projects. 1 challenge completed every 1-2 days. Each folder contains a README as well as link to view the project. All projects can be viewed here https://www.playbook.com/s/frontend/wZW2jJgSvnzLihMuJBjCUoLZ
 
 Challenges provided by https://www.dailyui.co/
 
