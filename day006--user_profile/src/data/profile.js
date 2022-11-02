@@ -1,6 +1,7 @@
-let profile = [
+let profile = 
   {
     id: 1,
+    image:"orange3.png",
     name: "Jonathan Mani",
     role: "FullStack Developer",
     desc: "Forward-thinking Software Developer with a background working productively in dynamic environments. Fluent in JavaScript and React used to develop software within finance and health industries. Proud team player focused on achieving project objectives with speed and accuracy",
@@ -60,7 +61,7 @@ let profile = [
         ],
       },
     ],
-  },
-];
+  };
+
 
 export default profile;
