@@ -8,12 +8,8 @@ import Experience from "./components/Experience";
 
 function App() {
     const profileData = data 
-    console.log('experience from the app: ', profileData.experience)
-    console.log('role from the app: ', profileData.experience[0].role)
-
+   
     let exp = profileData.experience.map((exp,index) => {
-        console.log('index:', index)
-        console.log('exp:', exp)
         return (
             <Experience 
                 key={exp.id}
