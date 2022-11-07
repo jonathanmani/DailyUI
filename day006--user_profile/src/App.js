@@ -13,13 +13,15 @@ function App() {
 
     let exp = profileData.experience.map((exp,index) => {
         console.log('index:', index)
+        console.log('exp:', exp)
         return (
             <Experience 
-                role={exp[index].role}
-                company={exp[index].company}
-                location ={exp[index].location}
-                duration={exp[index].duration}
-                bulletPoints={exp[index].bullets}
+                key={exp.id}
+                role={exp.role}
+                company={exp.company}
+                location ={exp.location}
+                duration={exp.duration}
+                bulletPoints={exp.bullets}
             />
         )
     })
