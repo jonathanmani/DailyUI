@@ -9,9 +9,9 @@ import Experience from "./components/Experience";
 function App() {
     const profileData = data 
    
-    let exp = profileData.experience.map((exp,index) => {
+    let exp = profileData.experience.map(exp=> {
         return (
-            <Experience 
+            <Experience className="grid-expbanner"
                 key={exp.id}
                 role={exp.role}
                 company={exp.company}
@@ -24,20 +24,20 @@ function App() {
     
     
     return(
-        <>
-          <SideBanner 
+        <div className="grid-container">
+          <SideBanner className="grid-sidebanner" 
             name={profileData.name}
             role={profileData.role} 
             description={profileData.desc}
             skills={profileData.skills}/> 
-        <InfoBanner
+        <InfoBanner className="grid-infobanner"
             number={profileData.contact.phone}
             email={profileData.contact.email}
             github={profileData.contact.github}
             portfolio={profileData.contact.portfolio}
             linkedin={profileData.contact.linkedin}/>   
         {exp}
-        </>
+        </div>
     )
 }
 

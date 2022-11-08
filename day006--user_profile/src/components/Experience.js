@@ -4,7 +4,7 @@ const Experience = ({role, company,location,duration,bulletPoints}) => {
     const description = bulletPoints.map(desc => <li>{desc}</li>)
     
   return (
-    <>
+    <div>
     <h1>{role}</h1>
     <h4>{company}, {location}</h4>
     <h5>{duration}</h5>
@@ -12,7 +12,7 @@ const Experience = ({role, company,location,duration,bulletPoints}) => {
         <li>{description}</li>
     </ul>
 
-    </>
+    </div>
   )
 }
 

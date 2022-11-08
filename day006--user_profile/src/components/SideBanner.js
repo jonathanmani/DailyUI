@@ -7,14 +7,14 @@ const SideBanner = ({name, role, description,skills}) => {
   )
 
   return (
-    <>
+    <div>
       <img src={userImage} alt="profilephotoHello" />
       <h1>{name}</h1>
       <span>{role}</span>
       <p>{description}</p>
       <h3>Skills</h3>
       <div>{skillArray}</div>
-    </>
+    </div>
     
   )
 }
