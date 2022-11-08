@@ -36,8 +36,12 @@ function App() {
             email={profileData.contact.email}
             github={profileData.contact.github}
             portfolio={profileData.contact.portfolio}
-            linkedin={profileData.contact.linkedin}/>   
-        {exp}
+            linkedin={profileData.contact.linkedin}/> 
+            <div className='expDiv'>
+            <h2>Experience</h2>
+            {exp}
+            </div>
+        
             </div>
         
         </div>

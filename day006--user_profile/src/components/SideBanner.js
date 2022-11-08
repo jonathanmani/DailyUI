@@ -3,20 +3,20 @@ import userImage from "../images/orange3.png"
 
 const SideBanner = ({name, role, description,skills}) => {
   const skillArray = skills.map(item =>     
-    <div key={item} className='skills'>{item}</div> 
+    <span key={item} className='skills'>{item}</span> 
   )
 
   return (
-    <div>
+    <div className='sideDiv'>
       <div className='infobanner-imageNameRole'>
         <img src={userImage} alt="profilephotoHello" />
-        <h1>{name}</h1>
+        <h2>{name}</h2>
         <span>{role}</span>
         <p>{description}</p>
       </div>
       
       <h3>Skills</h3>
-      <div>{skillArray}</div>
+      <div className='skillsDiv'>{skillArray}</div>
     </div>
     
   )

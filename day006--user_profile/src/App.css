@@ -18,17 +18,77 @@ img {
   width: 50%;
 }
 
-h1 {
-  margin-bottom: 2%;
+h2 {
+  margin-bottom: 5px;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+h4,
+h5 {
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .infobanner-imageNameRole {
   text-align: center;
 }
 
+.skillsDiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .skills {
   border: 1px grey solid;
   border-radius: 15px;
-  padding: 5px 0 5px 15px;
+  padding: 5px 15px 5px 15px;
   background-color: whitesmoke;
+  margin: 5px;
+}
+
+.sideDiv {
+  border: 1px black solid;
+  padding: 10px;
+}
+
+.infoDiv {
+  line-height: 30px;
+  border: 1px black solid;
+  padding: 10px;
+}
+
+.expDiv {
+  border: 1px black solid;
+  padding: 10px;
+}
+
+a {
+  margin: 5px 5px 5px 0;
+  text-decoration: none;
+  border: 1px grey solid;
+  border-radius: 15px;
+  padding: 5px 15px 5px 15px;
+}
+
+a:hover {
+  background-color: brown;
+}
+
+.github {
+  background-color: #333333;
+  color: white;
+}
+
+.portfolio {
+  background-color: orange;
+  color: black;
+}
+
+.linkedin {
+  background-color: #0072b1;
+  color: white;
+  font-weight: 400;
 }
