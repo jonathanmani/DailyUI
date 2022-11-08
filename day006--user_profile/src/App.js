@@ -11,7 +11,7 @@ function App() {
    
     let exp = profileData.experience.map(exp=> {
         return (
-            <Experience className="grid-expbanner"
+            <Experience
                 key={exp.id}
                 role={exp.role}
                 company={exp.company}
@@ -30,13 +30,16 @@ function App() {
             role={profileData.role} 
             description={profileData.desc}
             skills={profileData.skills}/> 
-        <InfoBanner className="grid-infobanner"
+            <div className="grid-infobanner">
+            <InfoBanner
             number={profileData.contact.phone}
             email={profileData.contact.email}
             github={profileData.contact.github}
             portfolio={profileData.contact.portfolio}
             linkedin={profileData.contact.linkedin}/>   
         {exp}
+            </div>
+        
         </div>
     )
 }

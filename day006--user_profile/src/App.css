@@ -3,6 +3,7 @@
   grid-template-columns: 1fr 2fr;
   gap: 20px;
   grid-template-areas: "sidebar content";
+  padding: 20px;
 }
 
 .grid-sidebanner {
@@ -13,10 +14,21 @@
   grid-area: content;
 }
 
-.grid-expbanner {
-  grid-area: content;
-}
-
 img {
   width: 50%;
+}
+
+h1 {
+  margin-bottom: 2%;
+}
+
+.infobanner-imageNameRole {
+  text-align: center;
+}
+
+.skills {
+  border: 1px grey solid;
+  border-radius: 15px;
+  padding: 5px 0 5px 15px;
+  background-color: whitesmoke;
 }
